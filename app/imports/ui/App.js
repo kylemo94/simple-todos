@@ -63,6 +63,7 @@ class App extends Component {
               Hide Completed Tasks
             </label>
 
+
             <form className="new-task" onSubmit={this.handleSubmit.bind(this)} >
               <input
                   type="text"
